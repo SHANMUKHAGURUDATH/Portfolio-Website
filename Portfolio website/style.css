@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.top-bar {
+    background-color: rgb(255, 217, 0);
+    height: 52px;
+    width: 100%;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0 40px;
+}
+
+.nav-left {
+    display: flex;
+    gap: 50px;
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.nav-left a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.nav-left a:hover {
+    color: #1500ff;   /* keeps it white on hover */
+    text-decoration: underline; /* optional */
+}
+
+.talk-btn {
+    padding: 9px 50px;
+    font-size: 28px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(17, 0, 255);
+    cursor: pointer;
+    transition: 4s ease;
+}
+
+.talk-btn:hover {
+    background-color: rgb(0, 0, 0);
+    color:yellow;
+}
+
+.Projects {
+    padding: 12px 70px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(255, 234, 0);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 2s ease;
+}
+
+.Hire {
+    padding: 9px 50px;
+    font-size: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(17, 0, 255);
+    cursor: pointer;
+    transition: 4s ease;
+}
+.Hire:hover {
+    background-color: rgb(255, 234, 0);
+    color:rgb(0, 0, 0);
+}
+
+
+.social-text {
+    margin-top: 25px;
+    display: flex;
+    gap: 50px;
+}
+
+.social-text a {
+    width: 42px;
+    height: 42px;
+    border: 2px solid #2b2b2b;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.social-text a:hover {
+    background-color: #2b2b2b;
+    color: white;
+}
+
+
+
+.hi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.text1 {
+    max-width: 600px;
+}
+
+.text1 .line1 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    width: 100 px;
+}
+
+.text1 .line2 {
+    font-size: 62px;
+    font-weight: bold;
+    color: rgb(255, 217, 0);
+    margin-bottom: 20px;
+}
+
+.text1 p {
+    font-size: 27px;
+    line-height: 1.6;
+}
+
+.hi img {
+    width: 1350px;
+    height: 1100px;
+}
+.hero-section {
+    display: flex;
+    align-items: center;
+}
+ 
+.profile {
+    flex-shrink: 0;
+}
+
+.profile img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.contacttext {
+    flex: 1;
+    color: aliceblue;
+    font-size: 40px;
+    line-height: 1.5;
+    padding: 0 40px;
+}
+
+.rome{
+    color: aliceblue;
+}
